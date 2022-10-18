@@ -1,0 +1,14 @@
+.footer {
+  @include flex;
+  flex-direction: column;
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+  padding: 4%;
+
+  .footerLogo {
+    margin-bottom: 30px;
+  }
+  .footerText {
+    color: #ffffff;
+  }
+}

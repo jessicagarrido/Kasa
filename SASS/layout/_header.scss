@@ -1,7 +1,7 @@
 header {
   @include flex;
   justify-content: space-between;
-  margin: 20px;
+  padding: 3% 6%;
 
   img {
     margin-left: 20px;
@@ -10,16 +10,14 @@ header {
   nav {
     ul {
       @include flex;
-
       li {
         font-family: "Montserrat", sans-serif;
-        font-size: 24px;
-        margin: 20px;
-        
-        
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 20px;       
       }
       li:hover {
-        text-decoration: underline; /* lien survolé */
+        text-decoration: underline; 
       }
     }
   }
