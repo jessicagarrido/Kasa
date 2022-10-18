@@ -1,9 +1,12 @@
+import Header from './components/Header';
+import Home from './scenes/Home';
 
 function App() {
   return (
-    <div>
-      <p>Bonjour</p>
-    </div>
+    <router>
+      <Header />
+      <Home />
+    </router>
   );
 }
 

@@ -1,0 +1,23 @@
+section {
+  width: 86%;
+  margin: auto;
+
+  div {
+    position: relative;
+    img {
+      border-radius: 25px;
+      width: -webkit-fill-available;
+      filter: brightness(65%);
+    }
+    .centerBannerText {
+      color: #FFFFFF;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
+}

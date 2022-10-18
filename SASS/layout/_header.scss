@@ -1,0 +1,26 @@
+header {
+  @include flex;
+  justify-content: space-between;
+  margin: 20px;
+
+  img {
+    margin-left: 20px;
+  }
+
+  nav {
+    ul {
+      @include flex;
+
+      li {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        margin: 20px;
+        
+        
+      }
+      li:hover {
+        text-decoration: underline; /* lien survolé */
+      }
+    }
+  }
+}

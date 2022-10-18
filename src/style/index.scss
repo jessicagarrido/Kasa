@@ -1,17 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import "../../SASS/helpers/mixins";
+@import "../../SASS/helpers/variables";
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import "../../SASS/base/base";
 
-p {
-  color: red;
-}
+@import "../../SASS/layout/header";
+@import "../../SASS/layout/footer.scss";
+
+@import "../../SASS/pages/home";
