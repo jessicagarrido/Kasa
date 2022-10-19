@@ -1,4 +1,5 @@
 import logoColor from "../assets/logo/logo-color.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -7,15 +8,16 @@ function Header() {
         <img src={logoColor} alt="logo Kasa" />
       </div>
 
-    <nav>
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">A propos</a></li>
-      </ul>
-        
-        
-    </nav>
-      
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Accueil</Link>
+          </li>
+          <li>
+            <Link to="/about">A propos</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

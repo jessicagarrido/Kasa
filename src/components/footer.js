@@ -1,6 +1,3 @@
-import React from "react";
-
-//Style
 import logoWhite from "../assets/logo/logo-white.png";
 
 function Footer() {

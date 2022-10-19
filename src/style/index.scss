@@ -1,10 +1,11 @@
-@import "../../SASS/helpers/mixins";
-@import "../../SASS/helpers/variables";
+@import "./SASS/helpers/mixins";
+@import "./SASS/helpers/variables";
 
-@import "../../SASS/base/base";
+@import "./SASS/base/base";
 
-@import "../../SASS/layout/header";
-@import "../../SASS/layout/footer.scss";
+@import "./SASS/layout/header";
+@import "./SASS/layout/footer.scss";
 
-@import "../../SASS/pages/gallery";
-@import "../../SASS/pages/home";
+@import "./SASS/pages/about";
+@import "./SASS/pages/gallery";
+@import "./SASS/pages/home";
