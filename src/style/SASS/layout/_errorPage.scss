@@ -1,0 +1,31 @@
+#errorPage {
+  @include flex;
+  flex-direction: column;
+
+  h1,
+  p {
+    font-family: "Montserrat", sans-serif;
+    color: $base-color;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 10rem;
+  }
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px;
+  }
+
+  a {
+    margin-top: 9%;
+    margin-bottom: 100%;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: $base-color;
+  }
+
+}
