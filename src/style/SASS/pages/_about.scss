@@ -3,17 +3,23 @@
     div {
         width: 84%;
         margin: 20px auto;
-        
+        background-color: $base-color;
+        border-radius: 5px;
 
         h1 {
+            @include flex;
             padding: 14px;
             height: 47px;
-            border-radius: 5px;
-            background-color: $base-color;
             color: #FFFFFF;
             font-family: "Montserrat", sans-serif;
             font-size: 1rem;
             font-weight: 500;
+
+            .material-symbols-outlined {
+                width: 40px;
+                margin-left: 90%;
+                
+            }
             
         }
 

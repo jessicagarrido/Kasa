@@ -1,19 +1,21 @@
 import HomeBanner from "../assets/img/Banniere-accueil.png";
 import Gallery from "./Gallery";
+import Footer from "../components/Footer"
 
-function Home() {
+export default function Home() {
   return (
-    <section class='sectionBanner'>
+    <section className='sectionBanner'>
         <div>
            <img src={HomeBanner} alt="Bannière Accueil" />   
-           <div class="centerBannerText">Chez vous, partout et ailleurs</div>
+           <div className="centerBannerText">Chez vous, partout et ailleurs</div>
         </div>
         <section>
 
         </section>
         <Gallery />
+        <Footer />
     </section>
+    
   );
 }
 
-export default Home;
