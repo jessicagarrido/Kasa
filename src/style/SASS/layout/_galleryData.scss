@@ -1,17 +1,41 @@
 .bg-gallery-card {
-  background-color: rgb(180, 180, 237);
-  
+  width: auto;
+  padding: 50px;
+
   .gallery-card {
-    background-color: rgb(235, 117, 117);
-    border-radius: 25px;
-    width: 20%;
-    
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 100%;
+      height: -webkit-fill-available;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .filter {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 10;
+      box-shadow: inset 0px -78px 56px -40px rgba(0,0,0,0.75);
+    }
 
     .gallery-title {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      color: $bg-color;
+      font-size: 1em;
+      font-weight: 500;
       font-family: "Montserrat", sans-serif;
-    }
-    .gallery-img {
-        object-fit: cover;
+      z-index: 11;
     }
   }
 }

@@ -3,11 +3,12 @@
 
 @import "./SASS/base/base";
 
+@import "./SASS/layout/home";
 @import "./SASS/layout/errorPage";
 @import "./SASS/layout/header";
 @import "./SASS/layout/galleryData";
 @import "./SASS/layout/footer";
 
-@import "./SASS/pages/about";
+@import "./SASS/pages/pageAbout";
 @import "./SASS/pages/gallery";
-@import "./SASS/pages/home";
+@import "./SASS/pages/pageGalleryAbout";

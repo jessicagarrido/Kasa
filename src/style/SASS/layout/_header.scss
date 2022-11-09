@@ -2,7 +2,7 @@ header {
   @include flex;
   justify-content: space-between;
   padding: 3% 0;
-  width: 86%;
+
   margin: auto;
 
   img {
@@ -10,23 +10,30 @@ header {
   }
 
   nav {
-    
     ul {
       @include flex;
-      
+
       li {
         font-family: "Montserrat", sans-serif;
         font-size: 1.2rem;
         font-weight: 500;
-        margin: 20px;   
-           
+        margin: 20px;
+
         a:visited {
           color: $base-color;
         }
       }
       li:hover {
-        text-decoration: underline; 
+        text-decoration: underline;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+    img {
+      width: 100px;
     }
   }
 }

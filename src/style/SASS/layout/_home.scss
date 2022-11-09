@@ -1,13 +1,11 @@
-.sectionBanner {
-  width: 86%;
-  margin: auto;
-
-  div {
+.section-banner {
+  .banner-contener {
     position: relative;
     img {
       @include bannersImg;
+      margin-bottom: 20px;
     }
-    .centerBannerText {
+    .center-banner-text {
       color: #FFFFFF;
       position: absolute;
       top: 50%;
@@ -19,3 +17,5 @@
     }
   }
 }
+
+

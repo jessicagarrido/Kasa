@@ -2,10 +2,10 @@ import GalleryData from '../assets/data/galleryData.json'
 import GalleryDataJs from '../components/GalleryData'
 console.log(GalleryData)
 
-function Gallery() {
+export default function Gallery() {
 
     return(
-        <div>
+        <section className='gallery-contener'>         
             {
                 GalleryData.map(item => {
                     return <GalleryDataJs 
@@ -15,9 +15,8 @@ function Gallery() {
                     />
                 })
             }
-        </div>
+        </section>
         ) 
    
  }
  
- export default Gallery;

@@ -1,8 +1,8 @@
 import Header from './components/Header';
-import Home from './scenes/Home';
-import About from './scenes/About';
-import GalleryAbout from './components/GalleryAbout';
-import ErrorPage from './scenes/ErrorPage';
+import Home from './pages/Home';
+import GalleryAbout from './pages/PageAbout';
+import PageGalleryAbout from './pages/PageGalleryAbout';
+import ErrorPage from './pages/ErrorPage';
 
 import {Routes, Route} from 'react-router-dom';
 
@@ -13,8 +13,8 @@ function App() {
      
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/gallery" element={<GalleryAbout />} />
+        <Route path="/about" element={<GalleryAbout />} />
+        <Route path="/pageGalleryAbout" element={<PageGalleryAbout />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
      </div>

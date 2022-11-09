@@ -1,0 +1,8 @@
+.gallery-contener {
+    @include flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: $grey-color;
+    border-radius: 25px;
+    
+}

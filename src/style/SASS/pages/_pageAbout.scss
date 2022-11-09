@@ -1,0 +1,27 @@
+.CollapseContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.collapse {
+  font-size: 18px;
+  font-family: "Montserrat";
+  background-color: $bg-color;
+  border-radius: 10px;
+  overflow: hidden;
+  > div {
+    padding: 20px 15px;
+  }
+  .collapse-title {
+    background-color: $base-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+  }
+  .collapse-content {
+    color: $base-color;
+  }
+}
