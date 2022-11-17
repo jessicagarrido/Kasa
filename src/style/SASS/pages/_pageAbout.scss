@@ -25,3 +25,29 @@
     color: $base-color;
   }
 }
+
+
+//RESPONSIVE 
+
+@media screen and (min-width: 0) and (max-width: 425px) {
+
+  .CollapseContainer {
+    gap: 10px;
+  }
+  
+  .collapse {
+    font-size: 13px;
+    > div {
+      padding: 20px 15px;
+      margin: 0 10px;
+    }
+    .collapse-title {
+      padding: 10px;
+    }
+    .collapse-title-arrow {
+      img {
+        width: 15px;
+      }
+    }
+  }
+}

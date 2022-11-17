@@ -1,6 +1,6 @@
 .bg-gallery-card {
   width: auto;
-  padding: 50px;
+  padding: 30px;
 
   .gallery-card {
     height: 20rem;
@@ -10,11 +10,15 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+
+    
     img {
       width: 100%;
       height: -webkit-fill-available;
       object-fit: cover;
       position: relative;
+
+      
     }
 
     .filter {
@@ -24,8 +28,10 @@
       top: 0;
       bottom: 0;
       z-index: 10;
-      box-shadow: inset 0px -78px 56px -40px rgba(0,0,0,0.75);
+      box-shadow: inset 0px -78px 56px -40px rgba(0, 0, 0, 0.75);
+
     }
+    
 
     .gallery-title {
       position: absolute;
@@ -39,3 +45,33 @@
     }
   }
 }
+
+
+//RESPONSIVE
+
+@media screen and (min-width: 0) and (max-width: 425px) {
+  .bg-gallery-card {
+    background-color: transparent;
+    padding: 0;
+
+    .gallery-card {
+      width: auto;
+      margin: 0 10px 20px 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1300px) {
+
+  .bg-gallery-card {
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+
+    .gallery-card {
+      width: auto;
+      margin: 0 10px 20px 10px;
+    }
+  }
+}
+

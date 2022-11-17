@@ -3,19 +3,41 @@
     position: relative;
     img {
       @include bannersImg;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     .center-banner-text {
-      color: #FFFFFF;
+      color: #ffffff;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-family: "Montserrat", sans-serif;
-      font-size: 2vw;
       font-weight: 500;
     }
   }
+}
+
+//RESPONSIVE 
+@media screen and (min-width: 0) and (max-width: 425px) {
+  .banner-contener {
+    margin: 0 10px;
+    img {
+      height: 100px;
+    }
+    .center-banner-text {
+      font-size: var(--h3-size);
+      text-align: left;
+    }
+    
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+
+  .center-banner-text {
+   font-size: 20px;
+  }
+  
 }
 
 

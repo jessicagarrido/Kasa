@@ -2,7 +2,7 @@ import bannerAbout from "../assets/img/Banniere-apropos.png";
 import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
 
-function About() {
+export default function About() {
   return (
     <section className="section-banner">
       <Banner src={bannerAbout} />
@@ -35,4 +35,3 @@ function About() {
   );
 }
 
-export default About;

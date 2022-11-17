@@ -30,10 +30,43 @@ header {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 1224px) {
+
   header {
+    width: auto;
+
     img {
-      width: 100px;
+      width: 150px;
+    }
+    nav {
+      ul {
+        li{
+          font-size: 15px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+
+}
+//RESPONSIVE MOBILE
+
+@media screen and (min-width: 0) and (max-width: 425px) {
+  header {
+    width: auto;
+
+    img {
+      width: 80px;
+    }
+
+    nav {
+      ul {
+        li{
+          font-size: 15px;
+          margin: 10px;
+        }
+      }
     }
   }
 }
+

@@ -17,3 +17,19 @@ body {
     margin: 0 10%;
   }
 }
+
+//RESPONSIVE MOBILE {
+  @media screen and (min-width: 0) and (max-width: 1024px) {
+    body {
+      margin: 0;
+    }
+  }
+
+//GENERAL RESPONSIVE
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+
+  body {
+    margin: 20px;
+  }
+  }
