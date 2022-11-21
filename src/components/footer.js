@@ -1,6 +1,6 @@
 import logoWhite from "../assets/logo/logo-white.png";
 
-function Footer() {
+export default function Footer() {
   const effectiveYear = new Date().getFullYear();
 
   return (
@@ -13,5 +13,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

@@ -3,7 +3,7 @@ import GalleryDataJs from "../components/GalleryData";
 
 export default function Gallery() {
   return (
-    <section className="gallery-contener">
+    <section className="gallery-container">
       {GalleryData.map((item) => {
         return (
           <GalleryDataJs
