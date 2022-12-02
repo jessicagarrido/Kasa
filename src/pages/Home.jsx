@@ -5,11 +5,11 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <section className="section-banner">
+    <section className="section-banner container">
       <Banner src={HomeBanner} content="Chez vous, partout et ailleurs" />
       <Gallery />
+
       <Footer />
     </section>
-    
   );
 }

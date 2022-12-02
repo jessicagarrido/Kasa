@@ -1,43 +1,53 @@
 .section-banner {
   .banner-container {
+    height: 255px;
     position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
     img {
-      @include bannersImg;
-      margin-bottom: 10px;
+      filter: brightness(65%);
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+      border-radius: inherit;
     }
     .center-banner-text {
-      color: #ffffff;
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: "Montserrat", sans-serif;
+      justify-items: center;
+      align-self: center;
+      font-size: 45px;
       font-weight: 500;
+      padding: 20%;
+      color: #ffffff;
+      box-sizing: inherit;
+      font-family: "Montserrat", sans-serif;
     }
   }
 }
 
-//RESPONSIVE 
+//RESPONSIVE
 @media screen and (min-width: 0) and (max-width: 425px) {
   .banner-container {
-    margin: 0 10px;
+    overflow: hidden;
+    height: 160px !important;
+    margin: 10px;
     img {
       height: 100px;
     }
     .center-banner-text {
-      font-size: var(--h3-size);
+      font-size: 19px !important;
       text-align: left;
     }
-    
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 1024px) {
-
   .center-banner-text {
-   font-size: 20px;
+    height: 160px !important;
+    font-size: 30px !important;
   }
-  
 }
-
-

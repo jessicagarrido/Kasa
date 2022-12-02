@@ -1,26 +1,22 @@
 .gallery-container {
-    @include flex;
-    flex-wrap: wrap;
-    background-color: $grey-color;
-    border-radius: 25px;
-    width: calc(100%);
-    justify-content: center;
-    
+  @include flex;
+  flex-wrap: wrap;
+  background-color: $grey-color;
+  border-radius: 25px;
+  justify-content: center;
 }
 
 //RESPONSIVE MOBILE
 @media screen and (min-width: 0) and (max-width: 425px) {
-
-    .gallery-container {
-        background-color: transparent;
-    }
+  .gallery-container {
+    background-color: transparent;
+  }
 }
 
 //GENERAL RESPONSIVE
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
-
-    .gallery-container {
-        background-color: transparent;
-    }
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .gallery-container {
+    background-color: transparent;
   }
+}

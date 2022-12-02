@@ -1,12 +1,12 @@
 import GalleryData from "../assets/data/galleryData.json";
-import GalleryDataJs from "../components/GalleryData";
+import GalleryDataJsx from "../components/GalleryData";
 
 export default function Gallery() {
   return (
     <section className="gallery-container">
       {GalleryData.map((item) => {
         return (
-          <GalleryDataJs
+          <GalleryDataJsx
             key="item.id"
             title={item.title}
             id={item.id}

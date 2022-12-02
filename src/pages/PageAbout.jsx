@@ -1,10 +1,11 @@
 import bannerAbout from "../assets/img/Banniere-apropos.png";
 import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
+import Footer from "../components/Footer";
 
 export default function About() {
   return (
-    <section className="section-banner">
+    <section className="section-banner banner-h container">
       <Banner src={bannerAbout} />
       <div className="CollapseContainer">
         <Collapse title="Fiabilité">
@@ -31,7 +32,8 @@ export default function About() {
           sur la sécurité domestique pour nos hôtes.
         </Collapse>
       </div>
+
+      <Footer />
     </section>
   );
 }
-

@@ -17,7 +17,6 @@
       justify-content: space-between;
 
       .title-subtitle {
-
         h1 {
           color: $base-color;
           font-family: "Montserrat", sans-serif;
@@ -58,11 +57,13 @@
 
         .profile {
           display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-right: 10px;
           p {
             color: #ff6060;
             font-size: 22px;
             font-family: "Montserrat", sans-serif;
-            width: 7rem;
           }
           img {
             width: 28%;
@@ -71,11 +72,9 @@
         }
         .stars {
           .star {
-          margin-top: 6px;
-          
+            margin-top: 6px;
+          }
         }
-        }
-        
       }
 
       .new-class {
@@ -108,14 +107,12 @@
     .profile-stars {
       margin-left: 10px;
       margin-bottom: 20px;
-      flex-direction: row-reverse !important ; 
+      flex-direction: row-reverse !important ;
       justify-content: space-around;
 
       .profile {
-
         p {
           font-size: 17px !important;
-          width: 7rem;
         }
       }
 
@@ -133,9 +130,5 @@
   }
   .CollapseContainer2 {
     flex-direction: column;
-
   }
-}
-
-@media screen and (min-width: 425px) and (max-width: 1024px) {
 }

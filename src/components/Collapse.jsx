@@ -1,7 +1,6 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import VectorOpen from "../assets/img/VectorOpen.svg";
 import VectorClose from "../assets/img/VectorClose.svg";
-
 
 export default function Collapse(props) {
   let [toggle, setToggle] = useState(true);
@@ -27,4 +26,3 @@ export default function Collapse(props) {
     </div>
   );
 }
-

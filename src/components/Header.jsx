@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header>
+    <header className="container">
       <div className="logoColor">
         <img src={logoColor} alt="logo Kasa" />
       </div>
