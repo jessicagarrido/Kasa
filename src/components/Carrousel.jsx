@@ -19,7 +19,7 @@ export default function Carrousel(props) {
     <div className="carrousel-container">
       <div className="carrousel-picture">
         {props.pictures.map(
-          (picture, key) => key === slide && <img src={picture} alt="" />
+          (picture, key) => key === slide && <img key={key} src={picture} alt="" />
         )}
       </div>
       {props.pictures.length > 1 && (

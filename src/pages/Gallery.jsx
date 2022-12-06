@@ -7,7 +7,7 @@ export default function Gallery() {
       {GalleryData.map((item) => {
         return (
           <GalleryDataJsx
-            key="item.id"
+            key={item.id}
             title={item.title}
             id={item.id}
             cover={item.cover}
