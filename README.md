@@ -94,7 +94,6 @@ The app will be available at:
 ## 📄 License
 This project is part of the OpenClassrooms Web Developer Path and is intended for educational purposes only.
 
----
 ## 👨‍💻 Author
 
 Made by **Jessica Garrido**  
