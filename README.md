@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# 🏠 Kasa – Project 7 
+![16560899769906_FR_811_P8_Banner-Kasa (1)](https://github.com/user-attachments/assets/4e8a6af6-d876-4412-9c56-087eef030fb0)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 OpenClassrooms Web Developer Path
 
-## Available Scripts
+> ⚛️ Build a real estate rental web app with React  
+> 🔄 Handle routing, components, and dynamic content
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📖 Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Kasa** is a leading platform for peer-to-peer apartment rentals in France, operating for over 10 years with 500+ new listings daily.  
+This project focuses on building the frontend of the Kasa web app using **React** and **React Router**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Objectives
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Configure page navigation using **React Router**
+- Develop a modular and reusable component-based interface
+- Initialize the app using **Create React App**
+- Display a **404 page** for invalid routes or missing data
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Technical Constraints
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧩 React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- One **component per file**
+- Modular and reusable components
+- Use of **props** for data passing
+- Use of **state** where necessary
+- Event handling within components
+- Iteration over **lists** using `.map()`
 
-### `npm run eject`
+### 🔀 React Router
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Route parameters handled through the URL
+- One component/page per route
+- Fallback **404 error page** for invalid or missing data
+- Routing logic centralized in a single file
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ⚛️ **React**  
+- 🟨 **JavaScript**  
+- 🧱 **HTML5**  
+- 🎨 **CSS3** with **Sass**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Prerequisites
 
-### Code Splitting
+Make sure you have **Node.js** installed on your machine.  
+If not, download it here: [https://nodejs.org/](https://nodejs.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Installation
 
-### Analyzing the Bundle Size
+Clone the project and install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/your-username/kasa.git
+cd kasa
+npm install
+```
 
-### Making a Progressive Web App
+### 3. Launch the app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone the project and install dependencies:
+```bash
+npm start
+```
+The app will be available at:
+🌐 http://localhost:3000
 
-### Advanced Configuration
+## 🧠 Key Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Fully responsive frontend
 
-### Deployment
+- Routing with dynamic URL parameters
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- 404 error handling
 
-### `npm run build` fails to minify
+- Clean UI using Sass
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Component-based architecture
+
+## 📄 License
+This project is part of the OpenClassrooms Web Developer Path and is intended for educational purposes only.
+
+---
+## 👨‍💻 Author
+
+Made by **Jessica Garrido**  
+🔗 [LinkedIn](https://www.linkedin.com/in/jessica-garrido/)  
+🐙 [GitHub](https://github.com/jessicagarrido)
