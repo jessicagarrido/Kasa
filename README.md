@@ -1,4 +1,4 @@
-# 🏠 Kasa – Project 7 
+# 🏠 Kasa 
 ![16560899769906_FR_811_P8_Banner-Kasa (1)](https://github.com/user-attachments/assets/4e8a6af6-d876-4412-9c56-087eef030fb0)
 
 ## 💻 OpenClassrooms Web Developer Path
